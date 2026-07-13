@@ -1,0 +1,12 @@
+{
+  "name": "asyraaf-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build && node scripts/prepare-sites-build.cjs"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}
